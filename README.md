@@ -18,6 +18,8 @@ npx load-skill install telegram-bot-integration
 |-------|-------------|------|
 | [telegram-bot-integration](skills/telegram-bot-integration/SKILL.md) | Build Telegram bot integrations — webhooks, deep-link account linking, bot commands, push notifications | telegram, bot, webhooks, notifications |
 | [load-registry](skills/load-registry/SKILL.md) | Discover & install skills, hooks, agents, rules, and MCP servers from public registries using the load-* CLI family | registry, skills, hooks, agents, rules, mcp |
+| [google-calendar-sync](skills/google-calendar-sync/SKILL.md) | Integrate Google Calendar with web apps — OAuth2, fetch events, sync as blocked slots, auto-refresh tokens | google, calendar, oauth2, api, integration |
+| [add-custom-skill](skills/add-custom-skill/SKILL.md) | Step-by-step guide for contributing a new skill to the useful-skills registry and publishing via load-skill | contributing, skills, registry, workflow |
 
 ## Structure
 
