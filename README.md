@@ -17,6 +17,7 @@ npx load-skill install telegram-bot-integration
 | Skill | Description | Tags |
 |-------|-------------|------|
 | [telegram-bot-integration](skills/telegram-bot-integration/SKILL.md) | Build Telegram bot integrations — webhooks, deep-link account linking, bot commands, push notifications | telegram, bot, webhooks, notifications |
+| [load-registry](skills/load-registry/SKILL.md) | Discover & install skills, hooks, agents, rules, and MCP servers from public registries using the load-* CLI family | registry, skills, hooks, agents, rules, mcp |
 
 ## Structure
 
