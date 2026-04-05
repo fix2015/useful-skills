@@ -1,6 +1,8 @@
 ---
 name: load-registry
-description: Use this skill when the user asks to find, search, discover, install, or suggest skills, hooks, agents, rules, or MCP servers for their AI coding setup. Triggers on: "find a skill", "suggest hooks", "search agents", "install rule", "add MCP server", "what skills exist for", "recommend", "load-skill", "load-hooks", "load-agents", "load-rules", "load-mcp", or any request to enhance the AI coding environment with community extensions.
+description: >
+  Use this skill when the user asks to find, search, discover, install, or suggest
+  skills, hooks, agents, rules, or MCP servers for their AI coding setup.
 tags:
   - registry
   - skills
