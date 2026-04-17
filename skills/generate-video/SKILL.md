@@ -79,6 +79,16 @@ npx generate-video "Your text" --avatar
 npx generate-video --topic 0 --avatar
 ```
 
+### Custom avatar images
+
+Use your own PNG files instead of the generated cartoon:
+
+```bash
+npx generate-video "Your text" --avatar --avatar-dir ./avatar_frames/
+```
+
+The folder must contain: `avatar_closed.png`, `avatar_small.png`, `avatar_medium.png`, `avatar_wide.png`
+
 ---
 
 ## Preview Intro Frame
@@ -105,6 +115,39 @@ npx generate-video --topics
 npx generate-video --topic 0
 npx generate-video --topic 5 --avatar --preview
 ```
+
+---
+
+## JSON Config File
+
+Load all script fields from a JSON file instead of passing individual params:
+
+```bash
+npx generate-video --json ./my-script.json --avatar --preview
+```
+
+JSON format:
+```json
+{
+  "title": "Why RAG Hallucinates",
+  "hook": "Your AI STILL lies? Here's why.",
+  "script": "RAG doesn't magically fix hallucinations...",
+  "code": "# Why RAG hallucinates\n1. Bad chunking\n2. Wrong docs",
+  "hashtags": "#ai #rag #llm"
+}
+```
+
+---
+
+## Hook and Hashtags
+
+Pass inline as separate flags:
+
+```bash
+npx generate-video "Your text" --title "My Title" --hook "Catchy hook line" --hashtags "#ai #coding #tips"
+```
+
+These are displayed in the output after video generation — useful for copy-pasting to TikTok/YouTube.
 
 ---
 
@@ -182,7 +225,11 @@ npx generate-video "Your text" --output my-video.mp4
 | `--audio <path>` | Existing audio file | — |
 | `-r, --rate <rate>` | Speech rate | Normal |
 | `-p, --pitch <pitch>` | Voice pitch | Normal |
+| `--hook <text>` | Hook text (shown in output) | — |
+| `--hashtags <text>` | Hashtags (shown in output) | — |
+| `--json <file>` | Load script from JSON file | — |
 | `--avatar` | Enable lip-synced avatar | off |
+| `--avatar-dir <path>` | Custom avatar PNGs folder | — |
 | `--preview` | Add preview intro frame | off |
 | `--preview-bg <path>` | Preview background image | — |
 | `--preview-duration <s>` | Preview duration | `1.5` |
