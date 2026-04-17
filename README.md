@@ -22,6 +22,7 @@ npx load-skill install telegram-bot-integration
 | [add-custom-skill](skills/add-custom-skill/SKILL.md) | Step-by-step guide for contributing a new skill to the useful-skills registry and publishing via load-skill | contributing, skills, registry, workflow |
 | [youtube-upload](skills/youtube-upload/SKILL.md) | Bulk upload and schedule YouTube videos using the youtube-publish CLI | youtube, video, upload, scheduling, automation |
 | [generate-voice](skills/generate-voice/SKILL.md) | Generate voice audio from text using free Microsoft TTS — 400+ voices, no API key | tts, voice, audio, speech, cli |
+| [generate-video](skills/generate-video/SKILL.md) | Generate TikTok-style videos with voice, captions, and code overlays from text | video, tiktok, tts, captions, cli |
 
 ## Structure
 
