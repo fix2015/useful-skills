@@ -195,6 +195,26 @@ npx generate-video "Your text" --width 1080 --height 1080
 
 ---
 
+## TikTok Upload
+
+After generating, automatically open TikTok's web uploader, copy caption + hashtags to clipboard, and reveal the video in Finder for drag-and-drop:
+
+```bash
+# Generate and open TikTok upload
+npx generate-video --topic 0 --avatar --preview --upload-tiktok
+
+# With custom hook and hashtags
+npx generate-video "Your text" --hook "Catchy line" --hashtags "#ai #coding" --upload-tiktok
+```
+
+What it does:
+1. Generates the video
+2. Copies hook + hashtags to clipboard
+3. Opens https://www.tiktok.com/upload in browser
+4. Reveals video in Finder (macOS) for drag-and-drop
+
+---
+
 ## Other Options
 
 ```bash
@@ -243,6 +263,7 @@ npx generate-video "Your text" --output my-video.mp4
 | `--no-captions` | Disable captions | — |
 | `--voices` | List TTS voices | — |
 | `-l, --lang <code>` | Filter voices | — |
+| `--upload-tiktok` | Open TikTok upload, copy caption | — |
 | `--dry-run` | Preview only | — |
 
 ---
