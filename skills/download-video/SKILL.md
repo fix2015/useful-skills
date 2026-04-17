@@ -28,7 +28,7 @@ Use when: user asks to download a video, save a video from a URL, extract audio 
 ## Quick Start
 
 ```bash
-npx download-video "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+npx get-video "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
 ```
 
 ---
@@ -44,25 +44,25 @@ npx download-video "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
 
 ```bash
 # YouTube
-npx download-video "https://www.youtube.com/watch?v=..."
+npx get-video "https://www.youtube.com/watch?v=..."
 
 # Instagram
-npx download-video "https://www.instagram.com/reel/ABC123/"
+npx get-video "https://www.instagram.com/reel/ABC123/"
 
 # TikTok
-npx download-video "https://www.tiktok.com/@user/video/123456"
+npx get-video "https://www.tiktok.com/@user/video/123456"
 
 # Facebook
-npx download-video "https://www.facebook.com/watch?v=123456"
+npx get-video "https://www.facebook.com/watch?v=123456"
 
 # Twitter / X
-npx download-video "https://x.com/user/status/123456"
+npx get-video "https://x.com/user/status/123456"
 
 # Telegram
-npx download-video "https://t.me/channel/123"
+npx get-video "https://t.me/channel/123"
 
 # Reddit
-npx download-video "https://reddit.com/r/sub/comments/abc123/title/"
+npx get-video "https://reddit.com/r/sub/comments/abc123/title/"
 ```
 
 ---
@@ -71,31 +71,31 @@ npx download-video "https://reddit.com/r/sub/comments/abc123/title/"
 
 ```bash
 # Choose quality
-npx download-video "URL" --quality 720
+npx get-video "URL" --quality 720
 
 # Audio only (MP3)
-npx download-video "URL" --audio-only
+npx get-video "URL" --audio-only
 
 # Save to folder
-npx download-video "URL" --output ./downloads/
+npx get-video "URL" --output ./downloads/
 
 # Download playlist
-npx download-video "URL" --playlist
+npx get-video "URL" --playlist
 
 # With subtitles
-npx download-video "URL" --subs --subs-lang en
+npx get-video "URL" --subs --subs-lang en
 
 # List formats
-npx download-video "URL" --formats
+npx get-video "URL" --formats
 
 # Show metadata
-npx download-video "URL" --metadata
+npx get-video "URL" --metadata
 
 # Download thumbnail
-npx download-video "URL" --thumbnail
+npx get-video "URL" --thumbnail
 
 # Limit speed
-npx download-video "URL" --limit-rate 1M
+npx get-video "URL" --limit-rate 1M
 ```
 
 ---
@@ -124,5 +124,5 @@ npx download-video "URL" --limit-rate 1M
 YouTube, Instagram, TikTok, Facebook, Twitter/X, Telegram, Reddit, Vimeo, Twitch, Dailymotion, SoundCloud, Bandcamp, Bilibili, LinkedIn, Pinterest, and 1000+ more.
 
 ```bash
-npx download-video sites
+npx get-video sites
 ```
