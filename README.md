@@ -21,6 +21,7 @@ npx load-skill install telegram-bot-integration
 | [google-calendar-sync](skills/google-calendar-sync/SKILL.md) | Integrate Google Calendar with web apps — OAuth2, fetch events, sync as blocked slots, auto-refresh tokens | google, calendar, oauth2, api, integration |
 | [add-custom-skill](skills/add-custom-skill/SKILL.md) | Step-by-step guide for contributing a new skill to the useful-skills registry and publishing via load-skill | contributing, skills, registry, workflow |
 | [youtube-upload](skills/youtube-upload/SKILL.md) | Bulk upload and schedule YouTube videos using the youtube-publish CLI | youtube, video, upload, scheduling, automation |
+| [generate-voice](skills/generate-voice/SKILL.md) | Generate voice audio from text using free Microsoft TTS — 400+ voices, no API key | tts, voice, audio, speech, cli |
 
 ## Structure
 
