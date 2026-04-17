@@ -28,7 +28,7 @@ Use when: user asks to download a video, save a video from a URL, extract audio 
 ## Quick Start
 
 ```bash
-npx get-video "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+npx grab-video "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
 ```
 
 ---
@@ -44,25 +44,25 @@ npx get-video "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
 
 ```bash
 # YouTube
-npx get-video "https://www.youtube.com/watch?v=..."
+npx grab-video "https://www.youtube.com/watch?v=..."
 
 # Instagram
-npx get-video "https://www.instagram.com/reel/ABC123/"
+npx grab-video "https://www.instagram.com/reel/ABC123/"
 
 # TikTok
-npx get-video "https://www.tiktok.com/@user/video/123456"
+npx grab-video "https://www.tiktok.com/@user/video/123456"
 
 # Facebook
-npx get-video "https://www.facebook.com/watch?v=123456"
+npx grab-video "https://www.facebook.com/watch?v=123456"
 
 # Twitter / X
-npx get-video "https://x.com/user/status/123456"
+npx grab-video "https://x.com/user/status/123456"
 
 # Telegram
-npx get-video "https://t.me/channel/123"
+npx grab-video "https://t.me/channel/123"
 
 # Reddit
-npx get-video "https://reddit.com/r/sub/comments/abc123/title/"
+npx grab-video "https://reddit.com/r/sub/comments/abc123/title/"
 ```
 
 ---
@@ -71,31 +71,31 @@ npx get-video "https://reddit.com/r/sub/comments/abc123/title/"
 
 ```bash
 # Choose quality
-npx get-video "URL" --quality 720
+npx grab-video "URL" --quality 720
 
 # Audio only (MP3)
-npx get-video "URL" --audio-only
+npx grab-video "URL" --audio-only
 
 # Save to folder
-npx get-video "URL" --output ./downloads/
+npx grab-video "URL" --output ./downloads/
 
 # Download playlist
-npx get-video "URL" --playlist
+npx grab-video "URL" --playlist
 
 # With subtitles
-npx get-video "URL" --subs --subs-lang en
+npx grab-video "URL" --subs --subs-lang en
 
 # List formats
-npx get-video "URL" --formats
+npx grab-video "URL" --formats
 
 # Show metadata
-npx get-video "URL" --metadata
+npx grab-video "URL" --metadata
 
 # Download thumbnail
-npx get-video "URL" --thumbnail
+npx grab-video "URL" --thumbnail
 
 # Limit speed
-npx get-video "URL" --limit-rate 1M
+npx grab-video "URL" --limit-rate 1M
 ```
 
 ---
@@ -124,5 +124,5 @@ npx get-video "URL" --limit-rate 1M
 YouTube, Instagram, TikTok, Facebook, Twitter/X, Telegram, Reddit, Vimeo, Twitch, Dailymotion, SoundCloud, Bandcamp, Bilibili, LinkedIn, Pinterest, and 1000+ more.
 
 ```bash
-npx get-video sites
+npx grab-video sites
 ```
