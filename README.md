@@ -23,6 +23,7 @@ npx load-skill install telegram-bot-integration
 | [youtube-upload](skills/youtube-upload/SKILL.md) | Bulk upload and schedule YouTube videos using the youtube-publish CLI | youtube, video, upload, scheduling, automation |
 | [generate-voice](skills/generate-voice/SKILL.md) | Generate voice audio from text using free Microsoft TTS — 400+ voices, no API key | tts, voice, audio, speech, cli |
 | [generate-video](skills/generate-video/SKILL.md) | Generate TikTok-style videos with voice, captions, and code overlays from text | video, tiktok, tts, captions, cli |
+| [rag-engine](skills/rag-engine/SKILL.md) | Agentic RAG framework for Node.js — zero deps, auto-retries, query rewriting, full trace | rag, ai, llm, embeddings, agentic |
 
 ## Structure
 
