@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>useful-skills — Practical AI Coding Skills Collection</title>
+  <meta name="description" content="A collection of practical AI coding skills for Claude Code, Cursor, Codex, Gemini CLI. Telegram bots, Google Calendar, video generation, RAG, and more.">
+  <meta name="keywords" content="ai skills, claude code, cursor, codex, gemini cli, coding skills, telegram bot, google calendar, rag, video generation">
+  <meta name="author" content="Vitalii Semianchuk">
+  <meta property="og:title" content="useful-skills — Practical AI Coding Skills">
+  <meta property="og:description" content="A collection of practical AI coding skills for Claude Code, Cursor, Codex, Gemini CLI, and more.">
+  <meta property="og:url" content="https://fix2015.github.io/useful-skills">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- Header -->
+<header class="header">
+  <button class="hamburger" aria-label="Menu">&#9776;</button>
+  <a href="#" class="header-brand"><span>useful</span>-skills</a>
+  <div class="header-links">
+    <a href="https://github.com/fix2015/useful-skills" target="_blank">GitHub</a>
+    <a href="https://github.com/fix2015/load-skill" target="_blank">load-skill</a>
+  </div>
+</header>
+
+<!-- Sidebar -->
+<div class="sidebar-overlay"></div>
+<nav class="sidebar">
+  <div class="sidebar-group">
+    <div class="sidebar-group-title">Getting Started</div>
+    <a href="#overview">Overview</a>
+    <a href="#install">Install a Skill</a>
+  </div>
+  <div class="sidebar-group">
+    <div class="sidebar-group-title">Skills</div>
+    <a href="#skills-table">Available Skills</a>
+  </div>
+  <div class="sidebar-group">
+    <div class="sidebar-group-title">Reference</div>
+    <a href="#structure">Structure</a>
+    <a href="#adding">Adding a Skill</a>
+    <a href="#compatible-tools">Compatible Tools</a>
+  </div>
+  <div class="sidebar-group">
+    <div class="sidebar-group-title">More</div>
+    <a href="#browse">Browse via load-skill</a>
+  </div>
+</nav>
+
+<!-- Main -->
+<div class="main">
+
+<!-- Hero -->
+<div class="hero">
+  <h1>useful-skills</h1>
+  <p class="subtitle">A collection of practical AI coding skills<br>for Claude Code, Cursor, Codex, and Gemini CLI.</p>
+  <div class="install-cmd"><code>npx load-skill install telegram-bot-integration</code></div>
+  <div class="hero-buttons">
+    <a href="#skills-table" class="btn btn-primary">Browse Skills</a>
+    <a href="https://github.com/fix2015/useful-skills" target="_blank" class="btn btn-outline">GitHub</a>
+    <a href="https://github.com/fix2015/load-skill" target="_blank" class="btn btn-outline">load-skill</a>
+  </div>
+  <p class="meta">8 skills <span>&middot;</span> Community source <span>&middot;</span> MIT License</p>
+</div>
+
+<div class="content">
+
+<!-- Feature cards -->
+<div class="features">
+  <div class="feature-card">
+    <h3>Domain-Specific Knowledge</h3>
+    <p>Each skill teaches AI assistants about a specific domain — Telegram bots, Google Calendar, video generation, RAG, and more.</p>
+  </div>
+  <div class="feature-card">
+    <h3>One-Command Install</h3>
+    <p>Install any skill with <code>npx load-skill install &lt;name&gt;</code>. Skills are placed in the correct path for your AI tool automatically.</p>
+  </div>
+  <div class="feature-card">
+    <h3>Multi-Tool Compatible</h3>
+    <p>Works with Claude Code, Cursor, Codex, and Gemini CLI. Same skills, every tool.</p>
+  </div>
+</div>
+
+<!-- Overview -->
+<section id="overview">
+  <h1>Getting Started</h1>
+  <h2>What are Skills?</h2>
+  <p>Skills are markdown instruction files that give AI coding assistants domain-specific knowledge. They include architecture patterns, code examples, gotchas, and checklists for specific technologies.</p>
+  <p>Each <code>SKILL.md</code> includes:</p>
+  <ul>
+    <li><strong>YAML frontmatter</strong> — name, description, tags, compatible tools</li>
+    <li><strong>Markdown body</strong> — architecture, code patterns, gotchas, checklists</li>
+  </ul>
+</section>
+
+<section id="install">
+  <h2>Install a Skill</h2>
+  <p>Use <a href="https://github.com/fix2015/load-skill">load-skill</a> to install any skill:</p>
+  <pre><code class="language-bash">npx load-skill install telegram-bot-integration</code></pre>
+</section>
+
+<!-- Available Skills -->
+<section id="skills-table">
+  <h1>Available Skills</h1>
+  <table>
+    <thead><tr><th>Skill</th><th>Description</th><th>Tags</th></tr></thead>
+    <tbody>
+      <tr>
+        <td><a href="https://github.com/fix2015/useful-skills/blob/main/skills/telegram-bot-integration/SKILL.md">telegram-bot-integration</a></td>
+        <td>Build Telegram bot integrations — webhooks, deep-link account linking, bot commands, push notifications</td>
+        <td>telegram, bot, webhooks, notifications</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/fix2015/useful-skills/blob/main/skills/load-registry/SKILL.md">load-registry</a></td>
+        <td>Discover & install skills, hooks, agents, rules, and MCP servers from public registries using the load-* CLI family</td>
+        <td>registry, skills, hooks, agents, rules, mcp</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/fix2015/useful-skills/blob/main/skills/google-calendar-sync/SKILL.md">google-calendar-sync</a></td>
+        <td>Integrate Google Calendar with web apps — OAuth2, fetch events, sync as blocked slots, auto-refresh tokens</td>
+        <td>google, calendar, oauth2, api, integration</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/fix2015/useful-skills/blob/main/skills/add-custom-skill/SKILL.md">add-custom-skill</a></td>
+        <td>Step-by-step guide for contributing a new skill to the useful-skills registry and publishing via load-skill</td>
+        <td>contributing, skills, registry, workflow</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/fix2015/useful-skills/blob/main/skills/youtube-upload/SKILL.md">youtube-upload</a></td>
+        <td>Bulk upload and schedule YouTube videos using the youtube-publish CLI</td>
+        <td>youtube, video, upload, scheduling, automation</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/fix2015/useful-skills/blob/main/skills/generate-voice/SKILL.md">generate-voice</a></td>
+        <td>Generate voice audio from text using free Microsoft TTS — 400+ voices, no API key</td>
+        <td>tts, voice, audio, speech, cli</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/fix2015/useful-skills/blob/main/skills/generate-video/SKILL.md">generate-video</a></td>
+        <td>Generate TikTok-style videos with voice, captions, and code overlays from text</td>
+        <td>video, tiktok, tts, captions, cli</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/fix2015/useful-skills/blob/main/skills/rag-engine/SKILL.md">rag-engine</a></td>
+        <td>Agentic RAG framework for Node.js — zero deps, auto-retries, query rewriting, full trace</td>
+        <td>rag, ai, llm, embeddings, agentic</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- Structure -->
+<section id="structure">
+  <h1>Reference</h1>
+  <h2>Structure</h2>
+  <pre><code>skills/
+  &lt;skill-name&gt;/
+    SKILL.md          # The skill file (YAML frontmatter + markdown)</code></pre>
+</section>
+
+<!-- Adding a Skill -->
+<section id="adding">
+  <h2>Adding a Skill</h2>
+  <ol>
+    <li>Create <code>skills/&lt;skill-name&gt;/SKILL.md</code></li>
+    <li>Add YAML frontmatter with <code>name</code>, <code>description</code>, <code>tags</code>, <code>compatible</code></li>
+    <li>Write the skill content</li>
+    <li>Add entry to the table in README</li>
+    <li>Submit a PR</li>
+  </ol>
+</section>
+
+<!-- Compatible Tools -->
+<section id="compatible-tools">
+  <h2>Compatible Tools</h2>
+  <table>
+    <thead><tr><th>Tool</th><th>Website</th></tr></thead>
+    <tbody>
+      <tr><td>Claude Code</td><td><a href="https://claude.ai/code" target="_blank">claude.ai/code</a></td></tr>
+      <tr><td>Cursor</td><td><a href="https://cursor.sh" target="_blank">cursor.sh</a></td></tr>
+      <tr><td>Codex</td><td><a href="https://openai.com/codex" target="_blank">openai.com/codex</a></td></tr>
+      <tr><td>Gemini CLI</td><td><a href="https://github.com/google-gemini/gemini-cli" target="_blank">github.com/google-gemini/gemini-cli</a></td></tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- Browse via load-skill -->
+<section id="browse">
+  <h1>Browse via load-skill</h1>
+  <pre><code class="language-bash"># Browse all skills from this repo and others
+npx load-skill list --source useful-skills
+
+# Install any skill
+npx load-skill install &lt;skill-name&gt;</code></pre>
+</section>
+
+</div><!-- .content -->
+
+<!-- Footer -->
+<footer class="footer">
+  <p>useful-skills — Practical AI Coding Skills Collection</p>
+  <p>Built by Vitalii Semianchuk</p>
+  <p>
+    <a href="https://github.com/fix2015/useful-skills">GitHub</a>
+    <a href="https://github.com/fix2015/load-skill">load-skill</a>
+    <a href="https://github.com/fix2015/useful-skills/issues">Report Issue</a>
+  </p>
+  <p>MIT License</p>
+</footer>
+
+</div><!-- .main -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-javascript.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-typescript.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-bash.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-json.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
