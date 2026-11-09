@@ -24,6 +24,7 @@ npx load-skill install telegram-bot-integration
 | [generate-voice](skills/generate-voice/SKILL.md) | Generate voice audio from text using free Microsoft TTS — 400+ voices, no API key | tts, voice, audio, speech, cli |
 | [generate-video](skills/generate-video/SKILL.md) | Generate TikTok-style videos with voice, captions, and code overlays from text | video, tiktok, tts, captions, cli |
 | [rag-engine](skills/rag-engine/SKILL.md) | Agentic RAG framework for Node.js — zero deps, auto-retries, query rewriting, full trace | rag, ai, llm, embeddings, agentic |
+| [mac-notify](skills/mac-notify/SKILL.md) | Live progress of agent deploys, CI pipelines & long tasks in a floating macOS panel ([app](https://github.com/fix2015/mac-notify)) | macos, notifications, progress, ci, deploy |
 
 ## Structure
 
